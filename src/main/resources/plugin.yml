@@ -1,0 +1,10 @@
+name: Sculptor
+version: '${version}'
+main: org.zeroxamr.sculptor.Sculptor
+api-version: '1.21'
+authors: [ zeroxamr ]
+
+commands:
+  sculpt:
+    description: Real-time terrain sculpting via spline interpolation
+    usage: /sculpt <start|carve|undo|style|shape|animation|clear|help>
